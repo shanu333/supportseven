@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/moreGoodToolBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:gravity="bottom"
+        android:minHeight="?attr/actionBarSize">
+
+    <!--<Button-->
+            <!--android:id="@+id/button_id"-->
+            <!--android:layout_width="40sp"-->
+            <!--android:layout_height="40sp"-->
+            <!--android:layout_gravity="center" />-->
+
+    <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:gravity="center"-->
+            <!--android:orientation="vertical">-->
+
+        <!--<TextView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="url"-->
+                <!--android:textColor="#eb48eb"-->
+                <!--android:textSize="16sp" />-->
+
+        <!--<EditText-->
+                <!--android:id="@+id/url_text_field_id"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:inputType="textNoSuggestions"-->
+                <!--android:maxLines="1" />-->
+
+        <!--<TextView-->
+                <!--android:id="@+id/output_text_view_id"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="initial_output_text_id"-->
+                <!--android:textSize="16sp" />-->
+    <!--</LinearLayout>-->
+</android.support.v7.widget.Toolbar>
