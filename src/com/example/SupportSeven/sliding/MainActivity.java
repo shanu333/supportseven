@@ -76,6 +76,7 @@ public class MainActivity extends ActionBarActivity {
     {
         mTabs = new ArrayList<SamplePagerItem>();
         mTabs.add(new SamplePagerItem("Local Train", Color.RED, Color.GREEN, R.drawable.search));
+        mTabs.add(new SamplePagerItem("Local Train", Color.RED, Color.GREEN, R.drawable.search));
         mTabs.add(new SamplePagerItem("Metro", Color.BLUE, Color.GREEN, R.drawable.favorite));
 //        mTabs.add(new SamplePagerItem("Mono Rail", Color.YELLOW, Color.GREEN, R.drawable.search));
 //        mTabs.add(new SamplePagerItem("Bus", Color.RED, Color.GREEN, R.drawable.favorite));

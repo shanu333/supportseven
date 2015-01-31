@@ -125,9 +125,13 @@
         </activity>
         <activity android:name=".Trying.SimpleMovement"
                 android:theme="@style/MyThemeCustom">
+
+        </activity>
+        <activity android:name=".scroll.scrollActivity"
+                android:theme="@style/MyThemeCustom">
             <intent-filter>
-            <action android:name="android.intent.action.MAIN"/>
-            <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
 

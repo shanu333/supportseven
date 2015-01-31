@@ -1,27 +1,202 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:orientation="vertical"
-              android:layout_width="match_parent"
-              android:layout_height="match_parent"
-              android:id="@+id/simple_layout">
-    <android.support.v7.widget.Toolbar
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/mySimpleToolBarOne"/>
-    <android.support.v7.widget.Toolbar
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/mySimpleToolBarTWO"/>
-    <TextView
-            android:id="@+id/smipleTV"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Santan ansdfonasdlfnao"/>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
 
-    <Button
-            android:layout_width="wrap_content"
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="vertical"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:id="@+id/simple_layout">
+        <ScrollView android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:nestedScrollingEnabled="true">
+            <android.support.v7.widget.Toolbar
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:nestedScrollingEnabled="true"
+                    android:id="@+id/mySimpleToolBarOne"/>
+        </ScrollView>
+        <android.support.v7.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:nestedScrollingEnabled="true"
+                android:id="@+id/mySimpleToolBarTWO"/>
+
+        <TextView
+                android:id="@+id/smipleTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Santan ansdfonasdlfnao"
+                android:nestedScrollingEnabled="true"/>
+
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New Button"
+                android:layout_gravity="center"
+                android:id="@+id/button2"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Santan ansdfonasdlfnao"
+                android:nestedScrollingEnabled="true"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Santan ansdfonasdlfnao"
+                android:nestedScrollingEnabled="true"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Santan ansdfonasdlfnao"
+                android:nestedScrollingEnabled="true"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Santan ansdfonasdlfnao"
+                android:nestedScrollingEnabled="true"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Santan ansdfonasdlfnao"
+                android:nestedScrollingEnabled="true"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Santan ansdfonasdlfnao"
+                android:nestedScrollingEnabled="true"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Santan ansdfonasdlfnao"
+                android:nestedScrollingEnabled="true"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Santan ansdfonasdlfnao"
+                android:nestedScrollingEnabled="true"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Santan ansdfonasdlfnao"
+                android:nestedScrollingEnabled="true"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Santan ansdfonasdlfnao"
+                android:nestedScrollingEnabled="true"/>        <TextView
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="New Button"
-            android:layout_gravity="center"
-            android:id="@+id/button2"/>
-</LinearLayout>
+            android:text="Santan ansdfonasdlfnao"
+            android:nestedScrollingEnabled="true"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Santan ansdfonasdlfnao"
+                android:nestedScrollingEnabled="true"/>        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Santan ansdfonasdlfnao"
+            android:nestedScrollingEnabled="true"/>        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Santan ansdfonasdlfnao"
+            android:nestedScrollingEnabled="true"/>        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Santan ansdfonasdlfnao"
+            android:nestedScrollingEnabled="true"/>        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Santan ansdfonasdlfnao"
+            android:nestedScrollingEnabled="true"/>        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Santan ansdfonasdlfnao"
+            android:nestedScrollingEnabled="true"/>        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Santan ansdfonasdlfnao"
+            android:nestedScrollingEnabled="true"/>        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Santan ansdfonasdlfnao"
+            android:nestedScrollingEnabled="true"/>        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Santan ansdfonasdlfnao"
+            android:nestedScrollingEnabled="true"/>        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Santan ansdfonasdlfnao"
+            android:nestedScrollingEnabled="true"/>        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Santan ansdfonasdlfnao"
+            android:nestedScrollingEnabled="true"/>        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Santan ansdfonasdlfnao"
+            android:nestedScrollingEnabled="true"/>        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Santan ansdfonasdlfnao"
+            android:nestedScrollingEnabled="true"/>        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Santan ansdfonasdlfnao"
+            android:nestedScrollingEnabled="true"/>        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Santan ansdfonasdlfnao"
+            android:nestedScrollingEnabled="true"/>        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Santan ansdfonasdlfnao"
+            android:nestedScrollingEnabled="true"/>        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Santan ansdfonasdlfnao"
+            android:nestedScrollingEnabled="true"/>        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Santan ansdfonasdlfnao"
+            android:nestedScrollingEnabled="true"/>        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Santan ansdfonasdlfnao"
+            android:nestedScrollingEnabled="true"/>        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Santan ansdfonasdlfnao"
+            android:nestedScrollingEnabled="true"/>        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Santan ansdfonasdlfnao"
+            android:nestedScrollingEnabled="true"/>        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Santan ansdfonasdlfnao"
+            android:nestedScrollingEnabled="true"/>        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Santan ansdfonasdlfnao"
+            android:nestedScrollingEnabled="true"/>        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Santan ansdfonasdlfnao"
+            android:nestedScrollingEnabled="true"/>        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Santan ansdfonasdlfnao"
+            android:nestedScrollingEnabled="true"/>        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Santan ansdfonasdlfnao"
+            android:nestedScrollingEnabled="true"/>
+
+
+    </LinearLayout>
+</ScrollView>

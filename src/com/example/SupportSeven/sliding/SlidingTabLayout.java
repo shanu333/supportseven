@@ -20,6 +20,7 @@ import android.graphics.Typeface;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.util.SparseArray;
 import android.util.TypedValue;
 import android.view.Gravity;
@@ -209,7 +210,7 @@ public class SlidingTabLayout extends HorizontalScrollView {
         if (selectedChild != null) {
             int targetScrollX = selectedChild.getLeft() + positionOffset;
             if (tabIndex > 0 || positionOffset > 0) {
-// If we're not at the first child and are mid-scroll, make sure we obey the offset
+            // If we're not at the first child and are mid-scroll, make sure we obey the offset
                 targetScrollX -= mTitleOffset;
             }
             scrollTo(targetScrollX, 0);
@@ -219,6 +220,7 @@ public class SlidingTabLayout extends HorizontalScrollView {
         private int mScrollState;
         @Override
         public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
+            Log.d("", "na bhai ... main nhi kar rha kaam1");
             int tabStripChildCount = mTabStrip.getChildCount();
             if ((tabStripChildCount == 0) || (position < 0) || (position >= tabStripChildCount)) {
                 return;
@@ -236,6 +238,7 @@ public class SlidingTabLayout extends HorizontalScrollView {
         }
         @Override
         public void onPageScrollStateChanged(int state) {
+            Log.d("", "na bhai ... main nhi kar rha kaam2");
             mScrollState = state;
             if (mViewPagerPageChangeListener != null) {
                 mViewPagerPageChangeListener.onPageScrollStateChanged(state);
@@ -243,6 +246,7 @@ public class SlidingTabLayout extends HorizontalScrollView {
         }
         @Override
         public void onPageSelected(int position) {
+            Log.d("", "na bhai ... main nhi kar rha kaam3");
             if (mScrollState == ViewPager.SCROLL_STATE_IDLE) {
                 mTabStrip.onViewPagerPageChanged(position, 0f);
                 scrollToTab(position, 0);

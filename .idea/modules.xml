@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SupportSeven.iml" filepath="$PROJECT_DIR$/SupportSeven.iml" />
+      <module fileurl="file://E:/Eclipse/adt-bundle-windows-x86_64-20140702/sdk/extras/android/support/v7/appcompat/android-support-v7-appcompat.iml" filepath="E:/Eclipse/adt-bundle-windows-x86_64-20140702/sdk/extras/android/support/v7/appcompat/android-support-v7-appcompat.iml" />
+      <module fileurl="file://E:/Eclipse/adt-bundle-windows-x86_64-20140702/sdk/extras/android/support/v7/cardview/cardview.iml" filepath="E:/Eclipse/adt-bundle-windows-x86_64-20140702/sdk/extras/android/support/v7/cardview/cardview.iml" />
+    </modules>
+  </component>
+</project>
